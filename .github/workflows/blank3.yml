@@ -3,12 +3,6 @@ name: .NET Console CI
 on:
   push:
     branches: [master]
-    paths:
-      - 'Action-test/scr/**'
-  pull_request:
-    branches: [master]
-    paths:
-      - 'Action-test/scr/**'
 
 jobs:
   build-and-test:
