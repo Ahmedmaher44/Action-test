@@ -1,0 +1,36 @@
+name: .NET Console CI
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'Action-test/scr/**'
+  pull_request:
+    branches: [master]
+    paths:
+      - 'Action-test/scr/**'
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build project
+        run: dotnet build --no-restore --configuration Release Action-test/scr/test-ci/test-ci.csproj
+
+      - name: Make test script executable
+        run: chmod +x Action-test/scr/test.sh
+
+      - name: Run test script
+        run: ./Action-test/scr/test.sh
