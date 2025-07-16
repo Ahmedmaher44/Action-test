@@ -1,0 +1,15 @@
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\bin\Debug\net9.0\test-ci.exe
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\bin\Debug\net9.0\test-ci.deps.json
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\bin\Debug\net9.0\test-ci.runtimeconfig.json
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\bin\Debug\net9.0\test-ci.dll
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\bin\Debug\net9.0\test-ci.pdb
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\obj\Debug\net9.0\test-ci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\obj\Debug\net9.0\test-ci.AssemblyInfoInputs.cache
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\obj\Debug\net9.0\test-ci.AssemblyInfo.cs
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\obj\Debug\net9.0\test-ci.csproj.CoreCompileInputs.cache
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\obj\Debug\net9.0\test-ci.sourcelink.json
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\obj\Debug\net9.0\test-ci.dll
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\obj\Debug\net9.0\refint\test-ci.dll
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\obj\Debug\net9.0\test-ci.pdb
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\obj\Debug\net9.0\test-ci.genruntimeconfig.cache
+C:\Users\AHmed Maher\Desktop\test1\Action-test\Scr\test-ci\obj\Debug\net9.0\ref\test-ci.dll
