@@ -21,10 +21,10 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Build project
-        run: dotnet build --no-restore --configuration Release Action-test/Scr/test-ci/test-ci.csproj
+        run: dotnet build --no-restore --configuration Release ./Scr/test-ci/test-ci.csproj
 
       - name: Make test script executable
-        run: chmod +x Action-test/Scr/test.sh
+        run: chmod +x ./Scr/test.sh
 
       - name: Run test script
-        run: ./Action-test/scr/test.sh
+        run: ./scr/test.sh
