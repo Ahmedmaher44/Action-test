@@ -5,12 +5,11 @@ on:
     - cron: '0 3 * * *' # Runs every day at 3 AM UTC
 
 jobs:
-  daily-run:
-    run-script:
-      runs-on: ubuntu-latest
-      steps:
-        - name: Checkout repository
-          uses: actions/checkout@v4
-  
-        - name: Run a command
-          run: echo "This job ran on schedule!"
+  daily-task:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run a command
+        run: echo "This job ran on schedule!"
