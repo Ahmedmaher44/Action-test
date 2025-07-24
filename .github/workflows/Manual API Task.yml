@@ -1,0 +1,10 @@
+name: Manual API Task
+on:
+   repository_dispatch:
+     type: [incident-report]
+jobs:
+  incident-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: incident-report
+        run: echo "incident-report"
