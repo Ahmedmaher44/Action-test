@@ -1,0 +1,19 @@
+name: Manual Task
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Choose environment'
+        required: true
+        type: choice
+        options:
+          - stage
+          - production
+
+jobs:
+  echo-environment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show selected environment
+        run: echo "Selected environment: ${{ github.event.inputs.environment }}"
