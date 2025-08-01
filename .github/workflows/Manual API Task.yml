@@ -3,6 +3,7 @@ on:
    repository_dispatch:
      inputs:
        environment:
+         required: true
          options:
            - stage
            - production
