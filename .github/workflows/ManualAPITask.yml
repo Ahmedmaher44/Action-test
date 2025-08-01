@@ -1,7 +1,7 @@
 name: Manual API Task
 on:
    repository_dispatch:
-     type:[incident-report]
+     types:[incident-report]
 jobs:
   incident-report:
     runs-on: ubuntu-latest
