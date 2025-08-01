@@ -1,12 +1,7 @@
 name: Manual API Task
 on:
    repository_dispatch:
-     inputs:
-       environment:
-         required: true
-         options:
-           - stage
-           - production
+     type:[incident-report]
 jobs:
   incident-report:
     runs-on: ubuntu-latest
